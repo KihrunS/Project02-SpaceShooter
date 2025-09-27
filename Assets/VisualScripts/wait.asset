@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: wait
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Time","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Wait","summary":null,"pan":{"x":-132.0753,"y":-5.555588},"zoom":0.9,"elements":[{"defaultValues":{},"position":{"x":-538.0,"y":-67.0},"guid":"696b85f9-460e-4303-bbd1-578775c1cc21","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":126.0,"y":-70.0},"guid":"86cccb1a-995c-4c7b-abf6-9ab0af71a2e6","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"defaultValues":{"duration":{"$content":1.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-212.0,"y":-79.0},"guid":"c08e5058-2797-45be-ac86-a6dc98b23e2c","$version":"A","$type":"Unity.VisualScripting.Cooldown","$id":"16"},{"sourceUnit":{"$ref":"16"},"sourceKey":"becameReady","destinationUnit":{"$ref":"14"},"destinationKey":"Out","guid":"6ed63670-1c9f-41b8-a35c-6065d50589b0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"In","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"73ddb384-ae26-4119-a26b-83c4d90d5109","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Time","destinationUnit":{"$ref":"16"},"destinationKey":"duration","guid":"7658a645-fc62-428f-9647-a8bbdf3151fd","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
